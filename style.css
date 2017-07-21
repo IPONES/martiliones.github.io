@@ -16,7 +16,7 @@ html, body {
 
 .body {
   width: 580px;
-  height: 900px;
+  height: 100vh;
   background-color: #000;
 }
 .body{margin-left:auto;margin-right:auto; height:100vh;}
