@@ -1,67 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fontello.css">
-    <link rel="stylesheet" href="fontello-embedded.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Blog</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="">
   </head>
   <body>
-    <div class="body">
-      <a href="#" class="close_button" ><img src="icons/close.png" alt=""></a>
-      <p class="reg_t">Регистрация</p>
-      <div class="circle_button"><img src="icons/circle_button.png" alt=""></a></div>
-      <div class="big_cir">
-        <div class="up">
-          <a href="#"><i class="icon-left-open"></i></a>
-        </div>
-        <div class="left">
-          <a href="#"><i class="icon-left-open"></i></a>
-        </div>
-        <div class="user_info">
-          <div>
-            <img src="icons/user.png" alt="">
-            <div>
-              <p style="font-size: 14px;"class="first-p">ИМЯ</p>
-              <p class="sec-p">Иван Бортник</p>
-            </div>
-          </div>
-          <div>
-            <img src="icons/message.png" alt="">
-            <div>
-              <p style="font-size: 14px;" class="first-p">ЭЛЕКТРОННАЯ ПОЧТА</p>
-              <p class="sec-p">ibortnik@mail.ru</p>
-            </div>
-          </div>
-          <div>
-            <img class="i3" src="icons/lock.png" alt="">
-            <div>
-              <p style="font-size: 14px;" class="first-p">ПАРОЛЬ</p>
-              <p class="sec-p">123456789BORTNIK</p>
-            </div>
-          </div>
-          <div>
-            <img class="i4" src="icons/phone.png" alt="">
-            <div>
-              <p style="font-size: 14px;" class="first-p">МОБИЛЬНЫЙ НОМЕР</p>
-              <p class="sec-p">+7 (925) 500 00-00</p>
-            </div>
-          </div>
-        </div>
-        <div class="right">'
-          <a href="#"><i class="icon-left-open"></i></a>
-        </div>
-        <div class="down">
-          <a href="#"><i class="icon-left-open"></i></a>
-        </div>
-      </div>
-      <div class="small-button">
-        <img src="icons/mcir_but.png" alt="">
-      </div>
-      <div class="buttonsg">
-        <a href="#"><img class="first_img" src="icons/message-circle.png" alt=""></a>
-        <a href="#"><img class="second_img" src="icons/phone2.png" alt=""></a>
-        <a href="#"><img class="thirt_img" src="icons/info.png" alt=.png""></a>
-      </div>
+
+  	<div id="app">
+      <div class="nav-wrapper">
+        <ul class="left hide-on-med-and-down" id="nav-mobile">
+          <router-link to="/" class="nav-txt"><a>Главная страница</a></router-link>
+          <router-link to="/add" class="nav-txt"><a>Добавить статью</a></router-link>
+        </ul>
+      </div>    
+  
+
+      <router-view></router-view>
+
     </div>
+    <script src="build/bundle.js"></script>
   </body>
 </html>
