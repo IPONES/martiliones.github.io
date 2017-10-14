@@ -1,4 +1,4 @@
 
 > # ПОРТФОЛИО FRONT-END
 > # РАЗРАБОТЧИКА
-> БЛОГ - /bl0g
+> <a href="https://martiliones.github.io/bl0g/"> БЛОГ</a>
