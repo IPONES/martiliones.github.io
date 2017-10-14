@@ -44,7 +44,7 @@
 	  			fullDesc:'',
 	  			namePost:'',
 	  			image:'',
-	  			nextTODO:3,
+	  			nextTODO:6,
 	  			error:''
       		}
     	},
