@@ -15,8 +15,8 @@
         </button>
       </div>
 
-      <ul class="list__frameworks ">
-        <div v-for="(post, index) in filteredPosts" class="all ">
+      <ul class="list__frameworks masonry">
+        <div v-for="(post, index) in filteredPosts" class="all item">
           <div class="card" hover="">
               <div class="card-image">
                 <img  :src="post.img">
