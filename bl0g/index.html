@@ -9,8 +9,14 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#000000">
     <link rel="icon" sizes="50x50" href="favicon.png">
+    <script src="src/preloader.js"></script>
+
   </head>
-  <body>
+  <body onload="load()">
+
+    <div id="page-loader" class="preloader" >
+      <div class="loader"></div>
+    </div>
 
   	<div id="app">
       <div class="nav-wrapper">
