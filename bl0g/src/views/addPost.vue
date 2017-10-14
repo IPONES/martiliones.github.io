@@ -21,6 +21,8 @@
 		</textarea> 
 		
 		<p class="limit">{{ fullDesc.length }} / 1301</p>
+
+		<p class="error">{{ error }}</p>
 		
 
 		<p 	v-if="fullDesc.length < 1301" 
@@ -42,22 +44,27 @@
 	  			fullDesc:'',
 	  			namePost:'',
 	  			image:'',
-	  			nextTODO:3
+	  			nextTODO:3,
+	  			error:''
       		}
     	},
     	methods: {
 		    addNewPost: function () {
-		   	    posts.push({
-		        	fullDescription: this.fullDesc,
-		        	name: this.namePost,
-		        	searchName: this.namePost,
-		        	img: this.image,
-		        	id: this.nextTODO
-		    	})
-		     	this.fullDesc = ''
-		    	this.namePost= ''
-		      	this.image = ''
-		      	this.nextTODO++
+		    	if ( this.fullDesc !='' && this.namePost !='') {
+			   	    posts.push({
+			        	fullDescription: this.fullDesc,
+			        	name: this.namePost,
+			        	searchName: this.namePost,
+			        	img: this.image,
+			        	id: this.nextTODO
+			    	})
+			     	this.fullDesc = ''
+			    	this.namePost= ''
+			      	this.image = ''
+			      	this.nextTODO++
+		      	} else{
+		      		this.error = 'Заполните форму для создания статьи'
+		      	}
 		    }
 		 }
    	}
