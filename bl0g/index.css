@@ -118,8 +118,8 @@
 }
 
 .list__frameworks {
-	display: inline-flex;
-	width: 80%;
+    display: inline-block;	
+    width: 80%;
 }
 .card .card-content {
     padding: 24px;
@@ -127,10 +127,12 @@
     border: solid 1px #e4e4e4;
     border-bottom: none;
     width: 260px;
+    height: 250px;
 }
 
 .all {
     margin-right: 3%;
+    display: inline-block;
 }
 
 .card .card-action {
@@ -289,4 +291,8 @@
 
     font-size: 24px;
     font-weight: 300;
+}
+
+#desc{
+    height: 250px;
 }
