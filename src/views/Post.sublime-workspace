@@ -1,0 +1,302 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"post",
+				"Post"
+			],
+			[
+				"Vue",
+				"VueRouter"
+			],
+			[
+				"sea",
+				"search__input"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"fu",
+				"fullDescription"
+			],
+			[
+				"frmew",
+				"framework-name"
+			],
+			[
+				"fra",
+				"framework"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"fos",
+				"font-size"
+			],
+			[
+				"fs",
+				"font-style"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"fr",
+				"frameworks"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"re",
+				"react"
+			],
+			[
+				"i",
+				"import"
+			],
+			[
+				"co",
+				"combineReducers"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"bored",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 430.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Игорь/Desktop/vuejs-tutorials-vue-router/index.css",
+		"/C/Users/Игорь/AppData/Local/Temp/Rar$DIa0.704/main.js",
+		"/C/Users/Игорь/Desktop/vuejs-tutorials-vue-loader/build.js",
+		"/C/Users/Игорь/Desktop/vuejs-tutorials-vue-router/webpack.config.js",
+		"/C/Users/Игорь/Desktop/learn/learn_node/start.js",
+		"/C/Users/Игорь/Desktop/learn/learn_vue/index.html",
+		"/C/Users/Игорь/Desktop/Игорь2/builds/index.html",
+		"/C/Users/Игорь/Desktop/Игорь2/builds/static/js/vuejs.js",
+		"/C/Users/Игорь/Desktop/learn_vue/styles/index.css",
+		"/C/Users/Игорь/Desktop/learn_vue/test.html",
+		"/C/Users/Игорь/Desktop/learn_vue/index.html",
+		"/C/Users/Игорь/Desktop/Браузер «Амиго» - Установи быстрый браузер!.html",
+		"/C/Users/Игорь/Desktop/learn_react/js/app.js",
+		"/C/Users/Игорь/Desktop/learn_react/index.html",
+		"/C/Users/Игорь/Desktop/learn_react/server.js",
+		"/C/Users/Игорь/Desktop/learn_react/package.json",
+		"/C/Users/Игорь/Desktop/react/code/js/reducers/car-active.js",
+		"/C/Users/Игорь/Desktop/react/code/js/actions/index.js",
+		"/C/Users/Игорь/Desktop/react/code/js/index.js",
+		"/C/Users/Игорь/Desktop/react/code/js/components/WebPage.js",
+		"/C/Users/Игорь/Desktop/react/code/js/containers/cars-list.js",
+		"/C/Users/Игорь/Desktop/react/code/js/reducers/index.js",
+		"/C/Users/Игорь/Desktop/react/code/js/containers/details.js",
+		"/C/Users/Игорь/Desktop/react/code/js/reducers/car.js",
+		"/C/Users/Игорь/AppData/Roaming/Sublime Text 3/Packages/sublime-react-ide/ReactIDE.sublime-settings",
+		"/C/Users/Игорь/Desktop/builds/index.html"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 81.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Post.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
