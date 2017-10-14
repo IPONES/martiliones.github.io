@@ -296,3 +296,8 @@
 #desc{
     height: 250px;
 }
+
+.error{
+    margin-left: 100px;
+    color: #d11f08;
+}
