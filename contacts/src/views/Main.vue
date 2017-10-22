@@ -1,8 +1,15 @@
 <template>
-  <div>
-    <div class="contacts-list" v-for="contact in contacts">
-      <p>{{ contact.name }}</p>
-      <p>{{ contact.number }}</p>
+  <div id="content">
+    <div class="contacts">
+      <input type="text" placeholder="Search..." class="search-field" v-model="searchQuery" />
+        <router-link class="contact" v-for="contact in searchContacts" 
+        :to="{ name: 'contact', params: { id: contact.id } }">
+          <img class="contact-image" :src="contact.photo" width="60px" height="60px" />
+            <div class="contact-info">
+              <div class="contact-name"> {{ contact.name }} </div>
+              <div class="contact-number"> {{ contact.number }} </div>
+            </div>
+        </router-link>
     </div>
   </div>
 </template>
@@ -18,9 +25,10 @@
       }
     },
     computed: {
-      filteredContacts: function () {
+     	searchContacts: function () {
           return this.contacts.filter((contact) => {
-          return contact.name.indexOf(this.searchQuery) > -1;
+            var searchValue = contact.name.toLowerCase()
+            return searchValue.indexOf(this.searchQuery.toLowerCase()) !== -1;
         });
       }
     },
