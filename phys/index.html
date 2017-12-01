@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="app">
+		<div>
+			Дано:
+			<div class="block">
+				Масса = <input type="text" v-model="weight">
+			</div>
+			<div class="block">
+				Объём = <input type="text" v-model="volume" @load="getDensity">
+			</div>
+			<hr>
+			<div class="block">
+				Найти - 
+			</div>
+		</div>
+		<div v-if="sdf">
+			<div class="block">
+			Решение:
+			<div class="block">P = m/v </div>
+			<div class="block">P = {{weight}}/{{volume}} = {{ (density).toFixed(2) }} </div>
+			</div>
+			
+			Ответ: P = {{ (density).toFixed(2) }}
+		</div>
+		
+	</div>
+
+
+	<script src="build/bundle.js"></script>
+
+</body>
+</html>
