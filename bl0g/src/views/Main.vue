@@ -47,7 +47,7 @@
     computed: {
       filteredPosts: function () {
           return this.posts.filter((post) => {
-          return post.name.indexOf(this.searchQuery) > -1;
+          return post.name.indexOf(this.searchQuery.toLowerCase()) !== -1;
         });
       }
     },
