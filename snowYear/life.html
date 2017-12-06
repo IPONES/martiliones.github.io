@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	<style>
+		#bg {
+			transition: background-color 2s;
+			display:flex;justify-content:center;align-items:center;
+		}
+
+		img {
+			width: 600px;
+			height: 600px;
+		}
+	</style>
+</head>
+<body id="bg">
+	<img src="https://4.bp.blogspot.com/-WGrCV3_CYEA/WF5Kan_t-EI/AAAAAAAAbZ8/JfdNeAeauv46tY9jRann8ZVpt2UgyJ4QQCLcB/s1600/0_77cdb_d84f9573_orig.png" alt="Дед мороз">
+</body>
+	
+	<script>
+		var bg = document.getElementById('bg');
+
+
+		setInterval(function () {
+			if (bg.style.backgroundColor == 'red') {bg.style.backgroundColor = 'blue'}
+			else if (bg.style.backgroundColor == 'blue') {bg.style.backgroundColor = 'green'}
+			else if (bg.style.backgroundColor == 'green') {bg.style.backgroundColor = 'yellow'}
+			else { bg.style.backgroundColor = 'red'}
+		},1000)
+	</script>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script src="snowfall.js"></script>
+
+	<script type="text/javascript">
+    jQuery(document).ready(function(){
+        $(document).snowfall({round: true, minSize:1, maxSize:5});
+    });
+</script>
+</html>
