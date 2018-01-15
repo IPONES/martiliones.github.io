@@ -1,6 +1,18 @@
-> # ПРИМЕРЫ МОИХ РАБОТ <br>
-<a href="https://martiliones.github.io/bl0g/"> БЛОГ</a> <br>
-<a href="https://martiliones.github.io/contacts/"> КОНТАКТ-ЛИСТ</a> <br>
-<a href="https://martiliones.github.io/snowYear/life.html"> snowYear</a> <br>
-<a href="https://martiliones.github.io/dist/">Конфигуратор цен</a> <br>
-<a href="https://martiliones.github.io/jsonexample/">Поиск картинок API</a> <br>
+# resume
+
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
