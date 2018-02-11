@@ -1,0 +1,47 @@
+html, body { 	/*У блоков хтмл и боди*/
+	padding: 0;	/*Убираем внутренние*/
+	margin: 0; /*И внешние отступы*/
+	background: linear-gradient(#95deec, #ecbebf); /*Устанавливаем линейный гардиент*/
+}
+
+#app {			/*У блок элемента (div) нашего приложения*/
+	width: 100%;  /*Устанавливаем 100% ширины экрана монитора*/
+}
+
+.site_name { /*Стили для нашего класса*/
+	color: #fff; /*Цвет шрифта*/
+	font-size: 100px;/*Размер шрифта*/
+	text-align: center;/*Расположение*/
+	font-family: Adobe Myungjo Std, arial;/*Название шрифта*/
+	paddng-top: 100px; /*Внутрений отступ от верхнего основания*/
+}
+
+.row {
+	width: 100%;
+	display: flex;
+} 
+
+.col {
+	width: 27%;
+	padding: 0px auto;
+	margin: 0;
+	margin: 10px auto;
+	text-align: center;
+	max-height: 400px; 
+
+	background: #fff;
+
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Параметры тени */
+}
+
+.col img {
+	width: 90%;
+	
+	padding-top: 5px;
+	border-radius: 5px;
+}
+
+.col .name {
+	padding: 5px 0;
+}
