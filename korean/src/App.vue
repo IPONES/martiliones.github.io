@@ -9,7 +9,7 @@
 		</div>
   </div>
 </template>
-
+<style src="./assets/style.css"></style>
 <script>
   var posts = require('./posts')
 
@@ -23,4 +23,3 @@
   }
 </script>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-<style src="./assets/style.css"></style>
