@@ -2,6 +2,7 @@ html, body { 	/*У блоков хтмл и боди*/
 	padding: 0;	/*Убираем внутренние*/
 	margin: 0; /*И внешние отступы*/
 	background: linear-gradient(#95deec, #ecbebf); /*Устанавливаем линейный гардиент*/
+	font-family: 'Roboto Slab', serif;
 }
 
 #app {			/*У блок элемента (div) нашего приложения*/
@@ -18,14 +19,17 @@ html, body { 	/*У блоков хтмл и боди*/
 
 .row {
 	width: 100%;
-	display: flex;
+	display:inline-block;
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
 } 
 
 .col {
-	width: 27%;
+	width: 350px;
 	padding: 0px auto;
-	margin: 0;
-	margin: 10px auto;
+	margin: 0 auto;
+	margin: 10px 40px;
 	text-align: center;
 	max-height: 400px; 
 
@@ -33,15 +37,18 @@ html, body { 	/*У блоков хтмл и боди*/
 
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Параметры тени */
+	display: inline-block;
+	padding-bottom: 30px;
 }
 
 .col img {
-	width: 90%;
-	
-	padding-top: 5px;
+	width: 100%;
 	border-radius: 5px;
+	height: 200px;
 }
 
 .col .name {
 	padding: 5px 0;
+	color: #000;
+	text-decoration: none;
 }

@@ -3,9 +3,17 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-import App from './App.vue'
+var App = require('./App.vue').default; 
+var Post = require('./Post.vue').default; 
+
+var router = new VueRouter({
+	routes: [
+		{path: '/', component: App},
+		{path: '/post/:id', name:'post', component: Post}
+	]
+})
 
 new Vue({
   el: '#app',
-  render: h => h(App)
+  router
 })
