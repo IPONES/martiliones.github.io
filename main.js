@@ -1,1 +1,3 @@
-console.log("js")
+module.exports = function() {
+  console.log("js")
+}
