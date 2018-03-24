@@ -1,11 +1,3 @@
-var fs = require('fs');
-
 module.exports = function() {
-  fs.writeFile("./hello.txt", "Hello мир!", function(error){
- 
-    if(error) throw error; // если возникла ошибка
-    console.log("Асинхронная запись файла завершена. Содержимое файла:");
-    var data = fs.readFileSync("./hello.txt", "utf8");
-    console.log(data);  // выводим считанные данные
-  });
+  window.open('https://vk.com/')
 }
