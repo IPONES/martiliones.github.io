@@ -5,7 +5,7 @@ module.exports = function() {
  
     if(error) throw error; // если возникла ошибка
     console.log("Асинхронная запись файла завершена. Содержимое файла:");
-    var data = fs.readFileSync("hello.txt", "utf8");
+    var data = fs.readFileSync("C:/hello.txt", "utf8");
     console.log(data);  // выводим считанные данные
   });
 }
