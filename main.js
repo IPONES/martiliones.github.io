@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 module.exports = function() {
   fs.writeFile("C:/hello.txt", "Hello мир!", function(error){
  
