@@ -1,3 +1,2 @@
-module.exports = function() {
-  window.open('https://vk.com/')
-}
+def start ():
+  print ("Hello!")
